@@ -2,10 +2,10 @@
   "name": "4inarow",
   "version": "1.0.0",
   "main": "app.js",
-    "scripts": {
-        "start": "node app.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HadarHazan/4inarow.git"
@@ -18,9 +18,11 @@
   "homepage": "https://github.com/HadarHazan/4inarow#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
     "fs": "^0.0.1-security",
-    "mongodb": "^2.2.26"
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.29"
   },
   "devDependencies": {},
   "description": ""
