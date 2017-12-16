@@ -5,7 +5,7 @@ var MongoClient = require('mongodb').MongoClient
 var db = require('./server/db')
 
 
-const allMessages =[]
+const allMessages =[] 
 const sockets =[]
 const port = process.env.PORT || 38700
 
